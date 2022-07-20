@@ -1,0 +1,21 @@
+.loading{
+    display: flex;
+    color: white;
+}
+
+.white {
+    color: black;
+    text-align: center;
+}
+
+.code{
+    text-align: center;
+}
+
+.center2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 150px;
+}

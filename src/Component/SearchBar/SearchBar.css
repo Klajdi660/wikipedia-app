@@ -1,0 +1,77 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css');
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+  
+.heading {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5rem;
+  color: white;
+}
+  
+.searchbar {
+  height: 40px;
+  width: 350px;
+}
+  
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px; 
+  margin-bottom: 16px;
+  margin-top: 16px;
+  transition: 0.4s; 
+  background-color: #fff;
+}
+
+.search-form:focus-within {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.search-field{
+  display: block;
+  appearance: none;
+  outline: none;
+  border: none;
+  border-style: none;
+  padding: 16px;
+  width: 100%;
+  transition: 00.4s;
+}
+
+.title{
+  color: #888;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 5px;
+}
+
+span{
+  font-size: 50px;
+}
+
+.wiki{
+  width: 200px;
+}
+
+.button-search{
+  border: 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0 22px 0 18px;
+  background-color: #fff;
+  color: #888;
+}

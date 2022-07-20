@@ -1,0 +1,65 @@
+.wrapper {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 16px;
+    transition: 0.4s;
+}
+
+.wrapper:hover{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-title {
+    margin-top: 5px;
+    margin-bottom: 16px;
+    color: #313131;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(168, 165, 165);
+    width: 100%;
+    border-radius: 25px;
+    padding-left: 0px;
+}
+
+.paragraph{
+    color: #313131;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.paragraph-title{
+    font-size: 18px;
+}
+
+.paragraph-title .searchmatch {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.readMore-btn{
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: rgb(168, 165, 165);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.readMore-btn:hover{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
