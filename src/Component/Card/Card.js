@@ -11,7 +11,7 @@ const Card = (props) => {
                 <div className="paragraph">
                     <p dangerouslySetInnerHTML={{__html: props.snippet}} className="paragraph-title"></p> 
                 </div>
-                <a className="readMore-btn" src={directLink} target="blank">Read More</a>
+                <a className="readMore-btn" href={directLink} target="blank">Read More</a>
             </article>
         </div>  
     );

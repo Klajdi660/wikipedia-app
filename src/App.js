@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import SearchBar from './Component/SearchBar/SearchBar';
 import Cardlist from './Component/Card/Cardlist';
-import {Error} from './Component/Assets/Error';
+import Error from './Component/Assets/Error';
 import Loading from './Component/Assets/Loading';
 
 class App extends Component {
-
   constructor() {
     super()
     this.state = {
@@ -23,7 +22,6 @@ class App extends Component {
         searchbuttonpress: true,               
         isLoading: true
       })
-
       fetch(`https://en.wikipedia.org//w/api.php?origin=*&action=query&format=json&list=search&utf8=1&srsearch=${event.target.value.trim()}`)
       .then((response) => response.json())
       .then(
@@ -37,7 +35,6 @@ class App extends Component {
 
       )
       .catch();
-
     }
     else this.setState({ SearchResult: [] });
   }
@@ -59,7 +56,7 @@ class App extends Component {
             <Loading/>
           </div>
         );
-      }else {
+      } else {
         return(
           <div>
             <SearchBar searchChange={this.onsearchChange}/>
