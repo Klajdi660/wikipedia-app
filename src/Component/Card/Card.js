@@ -3,6 +3,7 @@ import './Card.css';
 
 const Card = (props) => {
     const directLink = `https://en.wikipedia.org/?curid=${props.pageid}`;
+    
     return(
         // get on internet dangerouslySetInnerHTML={{__html: props.snippet}} 
         <div className="center grow card">
