@@ -1,0 +1,8 @@
+#error-header { 
+    background: #fff; 
+    padding: 20px; 
+    width: 750px; 
+    border-radius: 10px; 
+    display: flex; 
+    margin: auto;
+}
