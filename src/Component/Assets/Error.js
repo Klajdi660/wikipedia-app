@@ -7,6 +7,6 @@ const Error = () => {
             <h2 className="tc f1-l fw1 white">Sorry, we can't find the results you are looking for</h2>
         </header>
     );
-}
+};
 
 export default Error;

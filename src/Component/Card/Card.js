@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 const Card = (props) => {
-    const directLink = `https://en.wikipedia.org/?curid=${props.pageid}`;
+    const directLink = `https://en.wikipedia.org/?curid=${props.pageId}`;
     
     return(
         // get on internet dangerouslySetInnerHTML={{__html: props.snippet}} 
@@ -16,6 +16,6 @@ const Card = (props) => {
             </article>
         </div>  
     );
-}
+};
 
 export default Card;

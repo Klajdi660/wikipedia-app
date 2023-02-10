@@ -1,22 +1,22 @@
 import React from 'react';
 import Card from './Card';
 
-const Cardlist = ({SearchResult}) => {
+const Cardlist = ({ SearchResult }) => {
     return (
         <div>
-            { SearchResult.slice(0, 5).map((item, key) => {
+            {SearchResult.slice(0, 5).map((item, key) => {
                 return (
                     <Card 
                         key={key} 
                         id={item.id}
                         title={item.title}
                         snippet={item.snippet}
-                        pageid={item.pageid}
+                        pageId={item.pageid}
                     />
                 )})
             }
         </div>
     );
-}
+};
 
 export default Cardlist;

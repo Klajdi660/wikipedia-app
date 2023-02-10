@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './WikiLogo.gif';
 import './SearchBar.css';
 
-const SearchBar = ({searchChange}) => {
+const SearchBar = ({ searchChange }) => {
     return(
         <div className='search-container'>
             <img className="center wiki" src={logo} alt="WikiLogo" />
@@ -18,6 +18,6 @@ const SearchBar = ({searchChange}) => {
             </form> 
         </div>
     );
-}
+};
 
 export default SearchBar;
