@@ -14,7 +14,9 @@ const SearchBar = ({ searchChange }) => {
                     className="search-field" 
                     placeholder="What are you looking for?" 
                 />
-                <button type="submit" className="button-search"><i className="fa fa-search"></i></button>
+                <button type="submit" className="button-search">
+                    <i className="fa fa-search"></i>
+                </button>
             </form> 
         </div>
     );
