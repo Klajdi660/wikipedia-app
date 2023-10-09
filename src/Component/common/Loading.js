@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './loading.gif'
-import './Loading.css';
+import React from "react";
+import logo from "../../Assets/loading.gif";
+import "./Loading.css";
 
 const Loading = () => {
     return(

@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './WikiLogo.gif';
-import './SearchBar.css';
+import React from "react";
+import logo from "../Assets/WikiLogo.gif";
+import "./SearchBar.css";
 
 const SearchBar = ({ searchChange }) => {
     return(
